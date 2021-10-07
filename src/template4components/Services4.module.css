@@ -1,0 +1,130 @@
+
+.container1 {
+    max-width: 73.5rem;
+    margin: 0 auto;
+}
+.serviceWrapper{
+    max-width: 100vw;
+    min-height: 40rem;
+}
+.serviceCard{
+    border-radius: 10px;
+}
+.servicesMoreLink{
+    background-color: #00c1cf;
+}
+.servicesMoreLink:hover {
+    background-color: #00c1cf;
+}
+
+.serviceImages {
+    filter: contrast(0.5) brightness(0.9);
+}
+.serviceWrapper h1 {
+    color: rgb(26, 195, 224);
+    width: 100%;
+    font-size: 32px;
+}
+
+.serviceWrapper h2 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 24px;
+}
+
+.serviceWrapper h3 {
+    color: #fff;
+    font-size: 18.72px;
+    line-height: 2.25rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.serviceWrapper h4 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 16px;
+}
+
+.serviceWrapper h5 {
+    color: #fff;
+    width: 100%;
+    font-size: 13.28px;
+}
+
+.serviceWrapper h6 {
+    color: #fff;
+    width: 100%;
+    font-size: 10.72px;
+}
+
+.serviceWrapper p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 1.75rem;
+    padding: 0.75rem 0;
+}
+.serviceLayerH2 {
+    transition: 0.2s;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.layer::after {
+    content: "";
+    height: 38.75em;
+    width: 0%;
+    background: rgba(0, 193, 207, 0.2);
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    transition: 0.1 all ease;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+.layer:hover::after {
+    width: 100%;
+}
+
+.layer:hover #head {
+    transform: translate(-50% -50%);
+    max-width: 100%;
+
+    font-size: 1.4em;
+}
+
+.layer:hover #btn {
+    display: block;
+    width: 9rem;
+}
+
+
+@media (max-width: 1200px) {
+    .container1 {
+        max-width: 63rem;
+        padding: 1rem 2rem;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .serviceLayerH2 {
+        font-size: 1.2rem;
+    }
+}

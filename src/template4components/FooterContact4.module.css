@@ -1,0 +1,89 @@
+
+.container1 {
+    max-width: 73.5rem;
+    margin: 0 auto;
+}
+.contactFooterWrapper{
+    background-color:rgba(0, 193, 207, 0.75);
+}
+.contactBottomLink{
+    width: 20%;
+}
+.container1 > div:nth-child(1), .container1 > div:nth-child(2){
+    width: 100%;
+}
+.contactFooterWrapper h1 {
+    color: #fff;
+    width: 100%;
+    font-size: 32px;
+}
+
+.contactFooterWrapper h2 {
+    color: #fff;
+    width: 100%;
+    font-size: 24px;
+}
+
+.contactFooterWrapper h3 {
+    color: #fff;
+    font-size: 18.72px;
+    line-height: 2.25rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.contactFooterWrapper h4 {
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+}
+
+.contactFooterWrapper h5 {
+    color: #fff;
+    width: 100%;
+    font-size: 13.28px;
+}
+
+.contactFooterWrapper h6 {
+    color: #fff;
+    width: 100%;
+    font-size: 10.72px;
+}
+.contactFooterWrapper p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .container1 {
+        max-width: 63rem;
+        padding: 1rem 2rem;
+    }
+    .contactParaFooter {
+        width: 80%;
+        margin: 10px 0px;
+    }
+    .contactBottomLink {
+        width: 40%;
+    }
+}
+@media (max-width: 850px) {
+    .contactParaFooter {
+        width: 90%;
+    }
+    .contactBottomLink {
+        width: 55%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contactParaFooter {
+        width: 100%;
+    }
+    .contactBottomLink {
+        width: 80%;
+    }
+}
